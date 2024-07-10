@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding :0;
+    background-color: #cdcdda;
+}
+
+header {
+    background-color: #3f0e9b;
+    color: #6a57be;
+    padding: 0.1rem 0;
+    text-align: center;
+   
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #6a57be;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about, #skills, #projects, #contact {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #6a57be;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.project {
+    border: 1px solid #5154f8;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    margin: 0.5rem 0 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 500px;
+}
+button {
+    background-color: #2d0479;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #2d0479;
+    text-align: center;
+    color: #f4f4f4;
+    border: #fff;
+}
